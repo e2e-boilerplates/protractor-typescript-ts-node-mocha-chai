@@ -1,4 +1,4 @@
-name: protractor-typescript-ts-node-mocha-assert
+name: protractor-typescript-ts-node-mocha-chai
 
 on:
   push:
