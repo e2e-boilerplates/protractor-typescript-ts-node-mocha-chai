@@ -1,0 +1,52 @@
+{
+  "name": "protractor-typescript-ts-node-mocha-assert",
+  "version": "1.0.0",
+  "description": "Protractor end-to-end test automation boilerplate, using TypeScript, ts-node, Mocha and Assert.",
+  "scripts": {
+    "pretty": "npx prettier --no-config './spec/*.ts' --write",
+    "lint": "npx tslint -c tslint.json './spec/*.ts'",
+    "upadte-webderiver": "npx webdriver-manager update --standalone false --gecko",
+    "test": "npx protractor ./protractor.conf.js",
+    "test-ci": "npx protractor ./protractor-ci.conf.js"
+  },
+  "keywords": [
+    "protractor",
+    "es6 module",
+    "typescript",
+    "ts-node",
+    "boilerplate",
+    "ts-node",
+    "example",
+    "assert"
+  ],
+  "author": "Girma Nigusse",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "3.5.1",
+    "@types/jasminewd2": "2.0.8",
+    "@types/mocha": "5.2.7",
+    "@types/node": "12.12.25",
+    "husky": "4.2.1",
+    "lint-staged": "10.0.2",
+    "mocha": "7.0.1",
+    "prettier": "1.19.1",
+    "pretty-quick": "2.0.1",
+    "protractor": "5.4.2",
+    "puppeteer": "2.0.0",
+    "ts-node": "8.6.2",
+    "tslint": "5.20.1",
+    "tslint-config-prettier": "1.18.0",
+    "typescript": "3.7.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
