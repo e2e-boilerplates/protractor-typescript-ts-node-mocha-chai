@@ -1,28 +1,6 @@
 {
-  "name": "protractor-typescript-ts-node-mocha-chai-expect",
-  "version": "1.0.0",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "description": "Protractor end-to-end test automation boilerplate, using TypeScript, ts-node, Mocha, Chai and Expect",
-  "scripts": {
-    "pretty": "npx prettier --no-config './spec/*.ts' --write",
-    "lint": "npx tslint -c tslint.json './spec/*.ts'",
-    "upadte-webderiver": "npx webdriver-manager update",
-    "upadte-webderiver-ci": "npx webdriver-manager update --versions.chrome=79.0.3945.36",
-    "test": "npx protractor"
-  },
-  "keywords": [
-    "protractor",
-    "es6 module",
-    "typescript",
-    "ts-node",
-    "boilerplate",
-    "ts-node",
-    "example",
-    "assert",
-    "e2e",
-    "e2e test"
-  ],
-  "author": "Girma Nigusse",
-  "license": "MIT",
   "devDependencies": {
     "@types/chai": "4.2.9",
     "@types/jasmine": "3.5.4",
@@ -30,6 +8,7 @@
     "@types/mocha": "7.0.1",
     "@types/node": "12.12.27",
     "chai": "4.2.0",
+    "eslint-plugin-json": "^2.1.0",
     "husky": "4.2.3",
     "lint-staged": "10.0.7",
     "mocha": "7.0.1",
@@ -46,10 +25,37 @@
       "pre-commit": "lint-staged"
     }
   },
+  "keywords": [
+    "boilerplate",
+    "chai",
+    "e2e",
+    "e2e tests",
+    "example",
+    "expect",
+    "integration test",
+    "mocha",
+    "protractor",
+    "ts-node",
+    "typescript"
+  ],
+  "license": "MIT",
   "lint-staged": {
     "*.{js,css,json,md}": [
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "name": "protractor-typescript-ts-node-mocha-chai-expect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/protractor-typescript-ts-node-mocha-chai-expect.git"
+  },
+  "scripts": {
+    "pretty": "npx prettier --no-config './spec/*.ts' --write",
+    "lint": "npx tslint -c tslint.json './spec/*.ts'",
+    "upadte-webderiver": "npx webdriver-manager update",
+    "upadte-webderiver-ci": "npx webdriver-manager update --versions.chrome=79.0.3945.36",
+    "test": "npx protractor"
+  },
+  "version": "1.0.0"
 }
