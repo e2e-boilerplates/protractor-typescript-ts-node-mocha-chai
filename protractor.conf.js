@@ -5,6 +5,7 @@ const mochaOpts = {
   reporter: "dot",
   slow: 3000
 };
+
 const onPrepare = () => {
   browser.waitForAngularEnabled(false);
   require("ts-node").register({
