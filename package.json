@@ -1,6 +1,6 @@
 {
-  "author": "",
-  "description": "Protractor end-to-end test automation boilerplate, using TypeScript, ts-node, Mocha, Chai and Expect",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "description": "protractor end-to-end test automation boilerplate.",
   "devDependencies": {
     "@types/chai": "4.2.10",
     "@types/jasmine": "3.5.7",
@@ -25,8 +25,13 @@
     }
   },
   "keywords": [
+    "boilerplate",
     "chai",
+    "e2e",
+    "e2e tests",
+    "example",
     "expect",
+    "integration test",
     "mocha",
     "protractor",
     "ts-node",
