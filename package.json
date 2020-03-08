@@ -3,7 +3,7 @@
   "description": "protractor end-to-end test automation boilerplate.",
   "devDependencies": {
     "@types/chai": "4.2.10",
-    "@types/jasmine": "3.5.7",
+    "@types/jasmine": "3.5.8",
     "@types/jasminewd2": "2.0.8",
     "@types/mocha": "7.0.2",
     "@types/node": "12.12.29",
