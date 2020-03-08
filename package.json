@@ -1,1 +1,63 @@
-{"author":"Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)","bugs":{"url":"https://github.com/e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect/issues"},"description":"Protractor end-to-end test automation boilerplate. using Using TypeScript, ts-node, Mocha, Chai and Expect.","devDependencies":{"@types/chai":"4.2.10","@types/jasmine":"3.5.8","@types/jasminewd2":"2.0.8","@types/mocha":"7.0.2","@types/node":"12.12.29","chai":"4.2.0","husky":"4.2.3","lint-staged":"10.0.8","mocha":"7.1.0","prettier":"1.19.1","pretty-quick":"2.0.1","protractor":"5.4.3","ts-node":"8.6.2","tslint":"5.20.1","tslint-config-prettier":"1.18.0","typescript":"3.8.3"},"homepage":"https://github.com/e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect#readme","husky":{"hooks":{"pre-commit":"lint-staged"}},"keywords":["boilerplate","chai","e2e","e2e tests","example","expect","integration test","mocha","protractor","ts-node","typescript"],"license":"MIT","lint-staged":{"*.{js,css,json,md}":["prettier --write","git add"]},"name":"protractor-typescript-ts-node-mocha-chai-expect","repository":{"type":"git","url":"git+https://github.com/e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect.git"},"scripts":{"lint":"npx tslint -c tslint.json './spec/*.ts'","pretty":"npx prettier --no-config './spec/*.ts' --write","test":"npx protractor","update-webdriver":"npx webdriver-manager update"},"version":"1.0.0"}
+{
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "bugs": {
+    "url": "https://github.com/e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect/issues"
+  },
+  "description": "Protractor end-to-end test automation boilerplate. Using Using TypeScript, ts-node, Mocha, Chai and Expect.",
+  "devDependencies": {
+    "@types/chai": "4.2.10",
+    "@types/jasmine": "3.5.8",
+    "@types/jasminewd2": "2.0.8",
+    "@types/mocha": "7.0.2",
+    "@types/node": "12.12.29",
+    "chai": "4.2.0",
+    "husky": "4.2.3",
+    "lint-staged": "10.0.8",
+    "mocha": "7.1.0",
+    "prettier": "1.19.1",
+    "pretty-quick": "2.0.1",
+    "protractor": "5.4.3",
+    "ts-node": "8.6.2",
+    "tslint": "5.20.1",
+    "tslint-config-prettier": "1.18.0",
+    "typescript": "3.8.3"
+  },
+  "homepage": "https://github.com/e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "keywords": [
+    "boilerplate",
+    "chai",
+    "e2e",
+    "e2e tests",
+    "example",
+    "expect",
+    "integration test",
+    "mocha",
+    "protractor",
+    "ts-node",
+    "typescript"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "name": "protractor-typescript-ts-node-mocha-chai-expect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect.git"
+  },
+  "scripts": {
+    "lint": "npx tslint -c tslint.json './spec/*.ts'",
+    "pretty": "npx prettier --no-config './spec/*.ts' --write",
+    "test": "npx protractor",
+    "update-webdriver": "npx webdriver-manager update"
+  },
+  "version": "1.0.0"
+}
