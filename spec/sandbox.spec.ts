@@ -2,7 +2,7 @@ import { expect } from "chai";
 import { before } from "mocha";
 import { browser, by, element } from "protractor";
 
-const url: string = "https://e2e-boilerplates.github.io/sandbox/";
+const url: string = "https://e2e-boilerplate.github.io/sandbox/";
 
 describe("Sandbox", () => {
   before(() => {
