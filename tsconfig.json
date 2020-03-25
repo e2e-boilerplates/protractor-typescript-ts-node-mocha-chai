@@ -6,7 +6,6 @@
     "types": ["node", "mocha", "chai"],
     "typeRoots": ["node_modules/@types"],
     "outDir": "build",
-    "allowSyntheticDefaultImports": true,
     "target": "es5"
   }
 }
