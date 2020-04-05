@@ -1,0 +1,12 @@
+| referrer                                                                                  | count | uniques |
+| :---------------------------------------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect                          | 6     | 1       |
+| /e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect/blob/master/package.json | 6     | 1       |
+| /e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect/actions                  | 2     | 2       |
+| /e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect/pull/47                  | 2     | 1       |
+| /e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect/actions/runs/61098586    | 1     | 1       |
+| /e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect/actions/runs/65373624    | 1     | 1       |
+| /e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect/pull/45                  | 1     | 1       |
+| /e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect/pull/46                  | 1     | 1       |
+| /e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect/pull/55                  | 1     | 1       |
+| /e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect/pulls                    | 1     | 1       |
