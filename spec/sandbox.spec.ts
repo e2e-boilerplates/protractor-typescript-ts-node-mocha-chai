@@ -6,7 +6,6 @@ const url: string = "https://e2e-boilerplate.github.io/sandbox/";
 
 describe("Sandbox", () => {
   before(() => {
-    this.timeout(5000);
     browser.get(url);
   });
 
@@ -17,4 +16,4 @@ describe("Sandbox", () => {
     expect(title).to.equal("Sandbox");
     expect(await header.getText()).to.equal("Sandbox");
   });
-});
+}).timeout(5000);
