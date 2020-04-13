@@ -3,7 +3,7 @@ const specs = ["spec/*.spec.ts"];
 const framework = "mocha";
 const mochaOpts = {
   reporter: "dot",
-  slow: 3000
+  timeout: 50000,
 };
 
 const onPrepare = () => {
