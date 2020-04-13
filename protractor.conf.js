@@ -1,6 +1,9 @@
+
+      
 const directConnect = true;
 const specs = ["spec/*.spec.ts"];
 const framework = "mocha";
+
 const mochaOpts = {
   reporter: "dot",
   timeout: 50000,
@@ -8,16 +11,13 @@ const mochaOpts = {
 
 const onPrepare = () => {
   browser.waitForAngularEnabled(false);
-  require("ts-node").register({
-    project: require("path").join(__dirname, "./tsconfig.json")
-  });
 };
 
 const headed = {
   directConnect,
   specs,
   capabilities: {
-    browserName: "chrome"
+    browserName: "chrome",
   },
   framework,
   mochaOpts,
@@ -29,15 +29,15 @@ const headless = {
   specs,
   capabilities: {
     browserName: "chrome",
-    chromeOptions: {
-      args: ["--headless", "--no-sandbox", "--disable-gpu"]
-    }
+      chromeOptions: {
+        args: ["--headless", "--no-sandbox", "--disable-gpu"],
+      },
   },
   framework,
   mochaOpts,
   onPrepare
 };
 
-const config = process.env.GITHUB_ACTIONS ? headless : headed;
-
+const config = process.env.GITHUB_ACTIONS ? headless : headed;    
+           
 exports.config = config;
