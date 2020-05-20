@@ -8,14 +8,14 @@
     "mocha": "7.1.2",
     "protractor": "7.0.0",
     "ts-node": "8.10.1",
-    "typescript": "3.9.2"
+    "typescript": "3.9.3"
   },
   "description": "Protractor end-to-end test automation boilerplate. Using TypeScript, ts-node, Mocha, Chai and Expect.",
   "devDependencies": {
     "@types/chai": "4.2.11",
     "@types/jasminewd2": "2.0.8",
     "@types/mocha": "7.0.2",
-    "@types/node": "13.13.7",
+    "@types/node": "13.13.8",
     "husky": "4.2.5",
     "lint-staged": "10.2.4",
     "prettier": "2.0.4",
