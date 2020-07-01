@@ -8,7 +8,7 @@
     "mocha": "8.0.1",
     "protractor": "7.0.0",
     "ts-node": "8.10.2",
-    "typescript": "3.9.5"
+    "typescript": "3.9.6"
   },
   "description": "Protractor end-to-end test automation boilerplate. Using TypeScript, ts-node, Mocha, Chai and Expect.",
   "devDependencies": {
