@@ -14,7 +14,7 @@
   "devDependencies": {
     "@types/chai": "4.2.11",
     "@types/jasminewd2": "2.0.8",
-    "@types/mocha": "7.0.2",
+    "@types/mocha": "8.0.0",
     "@types/node": "13.13.14",
     "husky": "4.2.5",
     "lint-staged": "10.2.11",
