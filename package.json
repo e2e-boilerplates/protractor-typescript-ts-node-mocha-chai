@@ -12,7 +12,7 @@
   },
   "description": "Protractor end-to-end test automation boilerplate. Using TypeScript, ts-node, Mocha, Chai and Expect.",
   "devDependencies": {
-    "@types/chai": "4.2.13",
+    "@types/chai": "4.2.14",
     "@types/jasminewd2": "2.0.8",
     "@types/mocha": "8.0.3",
     "@types/node": "13.13.25",
