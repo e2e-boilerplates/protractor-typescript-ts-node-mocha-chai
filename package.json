@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect/issues"
   },
   "dependencies": {
-    "chai": "4.3.3",
+    "chai": "4.3.4",
     "mocha": "8.3.2",
     "protractor": "7.0.0",
     "ts-node": "9.1.1",
